@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleTypeSeed.Site", "AngleTypeSeed.Site\AngleTypeSeed.Site.csproj", "{99D1A040-DE7B-4AE6-B4E5-CD647AEDAA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleTypeSeed.Site.Tests", "AngleTypeSeed.Site.Tests\AngleTypeSeed.Site.Tests.csproj", "{279CA701-7C3D-45BA-BE2C-BB0E5D20AF2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E975BBA7-58C4-4340-8511-99ED80EA7A04}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99D1A040-DE7B-4AE6-B4E5-CD647AEDAA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D1A040-DE7B-4AE6-B4E5-CD647AEDAA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D1A040-DE7B-4AE6-B4E5-CD647AEDAA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D1A040-DE7B-4AE6-B4E5-CD647AEDAA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279CA701-7C3D-45BA-BE2C-BB0E5D20AF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279CA701-7C3D-45BA-BE2C-BB0E5D20AF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279CA701-7C3D-45BA-BE2C-BB0E5D20AF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279CA701-7C3D-45BA-BE2C-BB0E5D20AF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
